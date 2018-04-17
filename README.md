@@ -1,5 +1,5 @@
 English below
-# pst-calliope-oled-ssd1327 - Paket für das Graustufen OLED
+# pxt-calliope-oled-ssd1327 - Paket für das Graustufen OLED
 MakeCode Paket für den Calliope Mini. Für das Graustufen OLED von SeeedStudio das über den Grove Anschluss angeschlossen wird.
 ## Installation
 In MakeCode ...
@@ -13,7 +13,7 @@ Lizensiert unter MIT Lizenz (MIT). Siehe LICENSE für weitere Details.
 ## Unterstützte Zielsysteme
 * PXT/calliope
 
-# pst-calliope-oled-ssd1327 - Package for the greyscale OLED
+# pxt-calliope-oled-ssd1327 - Package for the greyscale OLED
 MakeCode package for your Calliope-Mini. Use it with the SeeedStudio Grove connected greyscale OLED.
 ## Installation
 Open MakeCode ...
