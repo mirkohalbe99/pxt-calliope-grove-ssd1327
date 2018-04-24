@@ -11,7 +11,7 @@ Code Beispiel
 Copyright (C) 2018 Ingo Hoffmann
 Lizensiert unter MIT Lizenz (MIT). Siehe LICENSE für weitere Details.
 ## Unterstützte Zielsysteme
-* PXT/calliope
+* for PXT/calliope
 
 # pxt-calliope-oled-ssd1327 - Package for the greyscale OLED
 MakeCode package for your Calliope-Mini. Use it with the SeeedStudio Grove connected greyscale OLED.
