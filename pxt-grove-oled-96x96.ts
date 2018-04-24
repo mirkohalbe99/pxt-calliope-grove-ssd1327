@@ -18,19 +18,19 @@ enum ScrollDirection {
 enum ScrollSpeed {
     //% blockId="oled_ssd1327_Speed2Frames" block="2 frames"
     scroll2frames = 7,
-    //% blockId="oled_ssd1327_Speed2Frames" block="3 frames"
+    //% blockId="oled_ssd1327_Speed3Frames" block="3 frames"
     scroll3frames = 4,
-    //% blockId="oled_ssd1327_Speed2Frames" block="4 frames"
+    //% blockId="oled_ssd1327_Speed4Frames" block="4 frames"
     scroll4frames = 5,
-    //% blockId="oled_ssd1327_Speed2Frames" block="5 frames"
+    //% blockId="oled_ssd1327_Speed5Frames" block="5 frames"
     scroll5frames = 0,
-    //% blockId="oled_ssd1327_Speed2Frames" block="25 frames"
+    //% blockId="oled_ssd1327_Speed25Frames" block="25 frames"
     scroll25frames = 6,
-    //% blockId="oled_ssd1327_Speed2Frames" block="64 frames"
+    //% blockId="oled_ssd1327_Speed64Frames" block="64 frames"
     scroll64frames = 1,
-    //% blockId="oled_ssd1327_Speed2Frames" block="128 frames"
+    //% blockId="oled_ssd1327_Speed128Frames" block="128 frames"
     scroll128frames = 2,
-    //% blockId="oled_ssd1327_Speed2Frames" block="256 frames"
+    //% blockId="oled_ssd1327_Speed256Frames" block="256 frames"
     scroll256frames = 3,
 }
 //% weight=98 color=#0fbc11 icon="\uf108" block="OLED (96x96)"

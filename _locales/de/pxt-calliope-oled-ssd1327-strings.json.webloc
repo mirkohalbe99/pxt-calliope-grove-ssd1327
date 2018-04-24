@@ -1,0 +1,28 @@
+{
+  "oled_ssd1327.ScrollDirectionLeft|block": "links"
+  "oled_ssd1327.ScrollDirectionRight|block": "rechts"
+  "oled_ssd1327.Speed2Frames|block": "2 Bildpunkte"
+  "oled_ssd1327.Speed3Frames|block": "3 Bildpunkte"
+  "oled_ssd1327.Speed5Frames|block": "4 Bildpunkte"
+  "oled_ssd1327.Speed5Frames|block": "5 Bildpunkte"
+  "oled_ssd1327.Speed25Frames|block": "25 Bildpunkte"
+  "oled_ssd1327.Speed64Frames|block": "64 Bildpunkte"
+  "oled_ssd1327.Speed128Frames|block": "128 Bildpunkte"
+  "oled_ssd1327.Speed256Frames|block": "256 Bildpunkte"
+  "oled_ssd1327.init|block": "initialisiere OLED",
+  "oled_ssd1327.setHorizontalMode|block": "horizontaler Modus",
+  "oled_ssd1327.setVerticalMode|block": "vertikaler Modus",
+  "oled_ssd1327.setTextXY|block": "setze Schreibmarke auf %row|%col",
+  "oled_ssd1327.clearDisplay|block": "lösche OLED",
+  "oled_ssd1327.setGrayLevel|block": "setze Helligkeit auf %grayLevel",
+  "oled_ssd1327.putString|block": "gib %text aus",
+  "oled_ssd1327.putNumber|block": "gib %theNumber aus",
+  "oled_ssd1327.drawBitmap|block": "zeichne Bitmap",
+  "oled_ssd1327.setHorizontalScrollProperties|block": "setze die horizontalen Scroll Parameter auf %direction|obere Zeile %startRow|untere Zeile %endRow|linke Spalte %startColumn|rechte Spalte %endColumn|Geschwindigkeit %speed",
+  "oled_ssd1327.activateScroll|block": "Scrollen aktivieren",
+  "oled_ssd1327.deactivateScroll|block": "Scrollen abschalten",
+  "oled_ssd1327.setNormalDisplay|block": "normaler Modus",
+  "oled_ssd1327.setInverseDisplay|block": "inverser Modus",
+  "oled_ssd1327|block": "OLED (96x96)",
+  "{id:category}oled_ssd1327": "oled_1327"
+}
