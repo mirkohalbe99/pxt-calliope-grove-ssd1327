@@ -13,6 +13,6 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/supereugen/pxt-calliope-grove-ssd1327.git"
+        "url": "git+https://github.com/calliope-mini/pxt-calliope-grove-ssd1327.git"
     },
     "public": false
