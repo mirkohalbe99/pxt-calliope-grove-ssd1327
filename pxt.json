@@ -1,5 +1,5 @@
 {
-    "name": "pxt-calliope-grove-ssd1327",
+    "name": "ssd1327-oled",
     "version": "0.0.1",
     "description": "Grove OLED Display 1.12\"",
     "license": "MIT",
@@ -7,7 +7,7 @@
         "core": "*"
     },
     "files": [
-        "pxt-grove-oled-96x96.ts",
+        "pxt-calliope-grove-ssd1327.ts",
         "_locales/de/pxt-calliope-grove-ssd1327-jsdoc-strings.json",
         "_locales/de/pxt-calliope-grove-ssd1327-strings.json"
     ],
