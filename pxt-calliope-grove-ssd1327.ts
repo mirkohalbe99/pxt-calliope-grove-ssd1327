@@ -155,16 +155,12 @@ namespace oled_ssd1327 {
     //% blockId="oled_ssd1327_init" block="initialize OLED"
     //% parts="oled_ssd1327"
     export function init() {
-        displayCmds([0xfd, 0x12, 0xae, 0xa8, 0x5f, 0xa1, 0x00, 0xa2,
-            0x60, 0xa0, 0x46, 0xab, 0x01, 0x81, 0x53, 0xb1,
-            0x51, 0xb3, 0x01, 0xb9, 0xbc, 0x08, 0xbe, 0x07,
-            0xb6, 0x01, 0xd5, 0x62, 0xa4, 0x2e, 0xaf])
-        basic.pause(100)
-        resetAdressing()
-        grayLvl = 15
+        displayCmds([0xae, 0xd5, 0x50, 0x20, 0x81, 0x80, 0xa0, 0xa4,
+            0xa6, 0xad, 0x80, 0xc0, 0xd9, 0x1f, 0xdb, 0x27,
+            0xaf, 0xb0, 0x00, 0x11])
     }
     function resetAdressing() {
-        displayCmds([0x75, 0x00, 0x5f, 0x15, 0x08, 0x37])
+        displayCmds([0xA0, 0xC8])
     }
     function displayCmds(cmds: number[]) {
         for (let i = 0; i < cmds.length; i++) {
@@ -209,9 +205,10 @@ namespace oled_ssd1327 {
     //% parts="oled_ssd1327"
     export function clearDisplay() {
         displayCmds([0x75, 0x00, 0x5f, 0x15, 0x08, 0x37])
-        for (let j = 0; j < 48; j++) {
-            for (let i = 0; i < 96; i++) {
-                pins.i2cWriteNumber(i2cAddress, dataMode + 0x00, NumberFormat.UInt16BE)
+        for (let j = 0; j < 16; j++) {
+            displayCmds([(0xb0 + j), 0x0, 0x10])
+            for (let i = 0; i < 128; i++) {
+                displayCmds([0x00])
             }
         }
     }
